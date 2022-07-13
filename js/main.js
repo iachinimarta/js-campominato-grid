@@ -21,7 +21,7 @@ btn.addEventListener('click',
             container.append(newBox);
 
             //Inserisco all interno del box il numero della sua posizione
-            newBox.append([i]);
+            newBox.append(i);
 
             //Aggiungo un event listener al box 
             newBox.addEventListener('click',
@@ -29,9 +29,9 @@ btn.addEventListener('click',
                     
                     //Al click lo sfondo cambia in giallo e stampo il numero del box scelto in console.log
                     newBox.classList.add("bg-yellow");
-                    console.log('Hai selezionato il numero: ' + [i]);
+                    console.log('Hai selezionato il numero: ' + i);
                 }
-            )
+            );
         }
     }
 );
