@@ -39,7 +39,7 @@ main {
 }
 
 #container {
-    width: 50%;
+    width: 40%;
     margin: auto;
     padding: 70px 0;
     display: flex;
@@ -50,4 +50,7 @@ main {
     height: 50px;
     width: calc(100% / 10);
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
