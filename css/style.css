@@ -37,3 +37,14 @@ header, footer {
 main {
     background-color: #7FFFD4;
 }
+
+#container {
+    width: 50%;
+    margin: auto;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+}
