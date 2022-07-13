@@ -54,3 +54,7 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+.bg-yellow {
+    background-color: rgb(235, 233, 113);
+}

@@ -12,6 +12,13 @@ btn.addEventListener('click',
             container.append(newBox);
 
             newBox.append([i]);
+
+            newBox.addEventListener('click',
+                function () {
+                    newBox.classList.add("bg-yellow");
+                    console.log('Hai selezionato il numero: ' + [i]);
+                }
+            )
         }
         
     }
