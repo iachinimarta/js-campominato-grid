@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    margin-right: 20px;
+}
+
+header button {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 30px;
+}
+
+
+header, footer {
+    padding: 20px;
+}
+
+main {
+    background-color: #7FFFD4;
+}
