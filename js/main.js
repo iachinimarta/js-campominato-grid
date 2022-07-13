@@ -3,7 +3,14 @@ const btn = document.getElementById('btn');
 
 btn.addEventListener('click',
     function() {
-        const container = document.getElementById('container');
-        container.innerHTML = `<div class="box"></div>`;
+        for (let i = 0; i < 100; i++) {
+            const container = document.getElementById('container');
+            // container.innerHTML = `<div class="box"></div>`;
+
+            let newBox = document.createElement("div");
+            newBox.classList.add("box");
+            container.append(newBox);
+        }
+        
     }
 );

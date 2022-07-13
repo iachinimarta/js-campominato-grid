@@ -41,6 +41,9 @@ main {
 #container {
     width: 50%;
     margin: auto;
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .box {
